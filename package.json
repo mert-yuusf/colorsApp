@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "setup": "npm install && npm run build"
+    "setup": "npm cache clean --force && npm install && npm start"
   },
   "eslintConfig": {
     "extends": [
